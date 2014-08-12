@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Test project</title>
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <script src="js/library/json2.js" ></script>
+    <script src="js/library/jquery.js" ></script>
+    <script src="js/library/jquery-ui.min.js" ></script>
+    <script src="js/library/underscore.js" ></script>
+    <script src="js/library/backbone.js" ></script>
+    <script src="js/app/shop.js" ></script>
+
+</head>
+<body>
+
+<div class="container">
+    <div id="shop">
+        <div id="catalog">
+            <h2>Items</h2>
+            <ul id="products"></ul>
+        </div>
+        <div id="cart">
+            <h2>Cart</h2>
+            <span class="empty">is empty</span>
+            <ul id="cart-items"></ul>
+            <div class="total" style="display: none;">
+                TOTAL:
+                <span class="money">$</span>
+                <span class="amount">0</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/template" id="product-template">
+    <div class="product">
+        <div class="title"><%- title %></div>
+        <div class="price">Price: $<%- price %></div>
+    </div>
+</script>
+
+<script type="text/template" id="product-in-cart-template">
+    <div><%- title %></div>
+</script>
+
+</body>
+</html>

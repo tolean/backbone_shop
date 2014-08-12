@@ -1,0 +1,38 @@
+[
+    {
+        "title": "TV",
+        "price": "245"
+    },
+    {
+        "title": "Phone",
+        "price": "32"
+    },
+    {
+        "title": "Book",
+        "price": "12"
+    },
+    {
+        "title": "Pen",
+        "price": "3"
+    },
+    {
+        "title": "Table",
+        "price": "52"
+    },
+    {
+        "title": "Notebook",
+        "price": "450"
+    },
+    {
+        "title": "Optical mouse",
+        "price": "34"
+    },
+    {
+        "title": "Pencil",
+        "price": "2"
+    },
+    {
+        "title": "Bag",
+        "price": "34"
+    }
+]
